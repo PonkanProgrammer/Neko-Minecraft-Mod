@@ -1,0 +1,9 @@
+{
+  "required": false,
+  "package": "com.neko.catcustomizer.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

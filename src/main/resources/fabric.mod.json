@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "nekocatcustomizer",
+  "version": "${version}",
+  "name": "Neko Cat Customizer",
+  "description": "Minecraft Java版で猫の見た目を簡単にカスタマイズできるModです。",
+  "authors": [
+    "Neko"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.neko.catcustomizer.NekoCatCustomizerMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
