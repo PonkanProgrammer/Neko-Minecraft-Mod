@@ -27,7 +27,7 @@ public class NekoCatCustomizerMod implements ModInitializer {
 
     public static final Item CAT_STYLER = Registry.register(
             Registries.ITEM,
-            new Identifier(MOD_ID, "cat_styler"),
+            Identifier.of(MOD_ID, "cat_styler"),
             new Item(new Item.Settings().maxCount(1).maxDamage(96))
     );
 
